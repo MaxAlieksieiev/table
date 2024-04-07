@@ -12,27 +12,6 @@ cd test-table
 yarn install
 ```
 
-To create a README.md file with the given project description, you'll need to follow these steps. Since I can't create files directly, I'll provide the markdown content, and you can copy and paste it into your own README.md file in your project directory.
-
-markdown
-Copy code
-
-# Project: test-table
-
-Welcome to the `test-table` project! This project is set up with a modern development stack including React, TypeScript, Material UI, Vite, Jest, and Storybook. Below you will find the necessary instructions to get started, run the development environment, execute tests, and build the project.
-
-## Getting Started
-
-First, clone the repository to your local machine and install the dependencies.
-
-```bash
-git clone <repository-url>
-cd test-table
-yarn install
-Available Scripts
-In the project directory, you can run several scripts:
-```
-
 `yarn dev` - Runs the app in development mode using Vite.
 Open `http://localhost:5173` to view it in your browser. The page will reload when you make changes.
 
