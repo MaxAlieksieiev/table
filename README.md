@@ -2,6 +2,10 @@
 
 Welcome to the `test-table` project! This project is set up with a modern development stack including React, TypeScript, Material UI, Vite, Jest, and Storybook. Below you will find the necessary instructions to get started, run the development environment, execute tests, and build the project.
 
+## Requirements
+
+yarn version should be `1.22.10`
+
 ## Getting Started
 
 First, clone the repository to your local machine and install the dependencies.
