@@ -1,6 +1,6 @@
 import { ButtonProps, Button as MuiButton } from '@mui/material';
 
-interface Props extends ButtonProps {
+export interface Props extends ButtonProps {
   title: string;
 }
 

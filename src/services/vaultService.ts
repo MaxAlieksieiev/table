@@ -13,14 +13,12 @@ export class VaultService {
     this.storage.removeItem(key);
   }
 
-  static getItem<T = string>(key: string): T {
+  static getItem<T = string>(key: string): T | undefined {
     try {
       return JSON.parse(this.storage.getItem(key) as string);
     } catch (error) {
       console.error(error);
     }
-
-    return this.storage.getItem(key) as unknown as T;
   }
 
   static clearStorage(): void {

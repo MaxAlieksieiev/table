@@ -1,7 +1,7 @@
 import { Checkbox, FormControlLabel, Stack, TextField } from '@mui/material';
-import { Modal } from 'components/dialog';
+import { Modal } from 'components/dialog/dialog';
 import { useMemo, useState } from 'react';
-import { Button } from 'components/button';
+import { Button } from 'components/button/button';
 import { columnOptions } from '../config';
 import { useDebounce } from 'hooks/useDebounce';
 import { VaultService } from 'services/vaultService';

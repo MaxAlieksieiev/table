@@ -1,8 +1,8 @@
 import { CircularProgress, Stack, Typography } from '@mui/material';
-import { Button } from 'components/button';
+import { Button } from 'components/button/button';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import instance from 'api/axios';
-import { Table } from 'components/table';
+import { Table } from 'components/table/table';
 import { columns, DEFAULT_COLUMNS } from './config';
 import { IProfile, IUser } from 'core/interfaces/user';
 import { transformedUserToProfile } from 'utils/user';

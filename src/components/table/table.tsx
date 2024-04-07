@@ -12,7 +12,7 @@ import {
 import { visuallyHidden } from '@mui/utils';
 import { ReactNode, useEffect, useMemo, useState } from 'react';
 import { startWithUpperCaseLetter } from 'utils/string';
-import { VaultService } from '../services/vaultService';
+import { VaultService } from 'services/vaultService';
 
 export type Order = 'asc' | 'desc';
 
@@ -92,7 +92,9 @@ export function Table(props: Props) {
   );
 
   useEffect(() => {
-    const savedSort: Record<string, Order> = VaultService.getItem('sort');
+    const savedSort: Record<string, Order> = VaultService.getItem(
+      'sort',
+    ) as Record<string, Order>;
     if (Object.keys(savedSort).length !== 0) {
       setOrder(Object.values(savedSort)[0]);
       setOrderBy(Object.keys(savedSort)[0]);

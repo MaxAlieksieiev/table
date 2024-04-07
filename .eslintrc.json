@@ -40,13 +40,15 @@
     "@typescript-eslint/no-extraneous-class": 0,
     "@typescript-eslint/restrict-template-expressions": 0,
     "@typescript-eslint/promise-function-async": 0,
-    "@typescript-eslint/no-floating-promises": 0
+    "@typescript-eslint/no-floating-promises": 0,
+    "@typescript-eslint/no-dynamic-delete": 0
   },
   "ignorePatterns": [
     "vite-env.d.ts",
     "jest.config.cjs",
     "jest.setup.ts",
     "vite.config.ts",
-    "__mocks__/**"
+    "__mocks__/**",
+    "__tests__/"
   ]
 }

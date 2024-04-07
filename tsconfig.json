@@ -17,6 +17,17 @@
     "jsx": "react-jsx",
     "baseUrl": "./src"
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "__tests__/button.test.tsx",
+    "__tests__/table.test.tsx",
+    "__tests__/dialog.test.tsx",
+    "__tests__/columnModal.test.tsx",
+    "__tests__/axios.test.ts",
+    "__tests__/dashboard.test.tsx",
+    "__tests__/vaultService.test.ts",
+    "__tests__/string.test.ts",
+    "__tests__/user.test.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

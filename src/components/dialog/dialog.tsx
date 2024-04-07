@@ -6,7 +6,7 @@ import {
   DialogTitle,
   Stack,
 } from '@mui/material';
-import { IconButton, Button } from './button';
+import { IconButton, Button } from '../button/button';
 import { ReactNode } from 'react';
 
 interface ModalProps extends Omit<DialogProps, 'onClose'> {
